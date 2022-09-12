@@ -78,6 +78,7 @@ jobs:
           upload_url: ${{ steps.release_drafter.outputs.upload_url }}
           asset_path:
             - 'azuredeploy.*'
+            - 'Reliability Workbook.json'
           overwrite: true
       - name: Move asset
         run: |
