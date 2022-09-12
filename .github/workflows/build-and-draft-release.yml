@@ -77,8 +77,9 @@ jobs:
         with:
           upload_url: ${{ steps.release_drafter.outputs.upload_url }}
           asset_path: |
-            'azuredeploy.*'
-            'workbooks/Reliability Workbook.json'
+            azuredeploy.json
+            workbooks/Reliability Workbook.json
+            workbooks/azuredeploy.bicep
           overwrite: true
       - name: Move asset
         run: |
