@@ -14,7 +14,7 @@ resource workbookId_resource 'microsoft.insights/workbooks@2021-03-08' = {
   properties: {
     displayName: workbookDisplayName
     serializedData: string(workbookContent)
-    version: '1.4'
+    version: '1.5'
     sourceId: 'azure monitor'
     category: 'workbook'
   }
