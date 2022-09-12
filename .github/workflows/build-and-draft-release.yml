@@ -76,7 +76,9 @@ jobs:
       - uses: shogo82148/actions-upload-release-asset@v1
         with:
           upload_url: ${{ steps.release_drafter.outputs.upload_url }}
-          asset_path: ['azuredeploy.*', 'Reliability Workbook.json']
+          asset_path:
+            - 'azuredeploy.*'
+            - 'Reliability Workbook.json'
           overwrite: true
       - name: Move asset
         run: |
