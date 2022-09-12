@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.10.13.619",
-      "templateHash": "4242842226824728447"
+      "templateHash": "4612182166815338558"
     }
   },
   "parameters": {
@@ -8827,7 +8827,7 @@
       "properties": {
         "displayName": "[parameters('workbookDisplayName')]",
         "serializedData": "[string(variables('workbookContent'))]",
-        "version": "1.5",
+        "version": "1.6",
         "sourceId": "azure monitor",
         "category": "workbook"
       }
